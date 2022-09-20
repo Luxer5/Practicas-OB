@@ -19,6 +19,14 @@ public class SmartPhone extends SmartDevice {
 		
 	}
 
+
+
+	@Override
+	public String toString() {
+		return "SmartPhone [tamPantalla=" + tamPantalla + ", modelo=" + modelo + ", bateria=" + bateria + ", marca="
+				+ marca + "]";
+	}
+
 	
 	
 }

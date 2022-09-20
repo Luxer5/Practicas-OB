@@ -7,6 +7,7 @@ public class Main {
 
 		SmartPhone galaxy22= new SmartPhone(5000, "Samsung", 6.7, "Galaxy 22");
 		SmartWatch watch5= new SmartWatch(500, "Huawei", 22.5, "Watch 5");
+		System.out.println(galaxy22);
 		
 		System.out.println("Marca movil: "+ galaxy22.marca);
 		System.out.println("Bateria: " + galaxy22.bateria);
